@@ -3,140 +3,1330 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cerrajeros Almerimar 24 Horas</title>
+<title>Cerrajero Almerimar 24h | Paco Cerrajero Almerimar · Urgente y Económico</title>
+<meta name="description" content="Cerrajero en Almerimar disponible 24 horas. Paco Cerrajero, tu cerrajero de confianza en Almerimar. Apertura de puertas, cambio de cerradura, cerrajeros urgentes.  655 123 456">
+<meta name="keywords" content="cerrajero almerimar, cerrajeros almerimar, cerrajero 24 horas almerimar, cerrajeros urgentes almerimar, cerrajeros economicos almerimar, apertura puertas almerimar">
+<meta property="og:title" content="Cerrajero Almerimar 24h | Paco Cerrajero">
+<meta property="og:description" content="Cerrajero urgente en Almerimar. Disponible 24h, 365 días. Precios económicos. Sin desplazamiento mínimo.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://www.pacocerrajeroalmerimar.es/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Paco Cerrajero Almerimar",
+  "description": "Cerrajero profesional en Almerimar disponible 24 horas. Apertura de puertas, cambio de cerraduras, cerrajero urgente.",
+  "telephone": "+34655123456",
+  "url": "https://www.pacocerrajeroalmerimar.es",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Almerimar",
+    "addressRegion": "Almería",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 36.6919,
+    "longitude": -2.7978
+  },
+  "openingHours": "Mo-Su 00:00-24:00",
+  "priceRange": "€€",
+  "areaServed": ["Almerimar", "El Ejido", "Roquetas de Mar", "Adra", "Berja", "La Mojonera", "Vícar", "Dalías"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios de Cerrajería",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Apertura de puertas urgente"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cambio de cerradura"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Instalación de cerrojos"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cerrajero 24 horas"}}
+    ]
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tarda en llegar el cerrajero en Almerimar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En Almerimar llegamos en menos de 20 minutos. Nuestra base está en la zona, lo que nos permite una respuesta muy rápida tanto de día como de noche."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta abrir una puerta en Almerimar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La apertura de puertas en Almerimar tiene un precio desde 45€ durante el día. Las aperturas nocturnas o en festivos pueden tener un pequeño incremento. Siempre presupuesto antes de empezar, sin sorpresas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Trabajáis las 24 horas en Almerimar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, estamos disponibles las 24 horas del día, los 365 días del año, incluidos festivos y fines de semana. Llámanos en cualquier momento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Podéis cambiar la cerradura sin romper la puerta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En la gran mayoría de casos sí. Abrimos la puerta sin dañarla mediante técnicas no destructivas. Solo en casos extremos (cerradura muy dañada o bloqueada) recurrimos a técnicas de fuerza, y siempre informamos antes."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-body{
-margin:0;
-font-family:Arial, sans-serif;
-background:#111;
-color:white;
-}
+  :root {
+    --amarillo: #F5C518;
+    --amarillo-dark: #D4A800;
+    --negro: #0D0D0D;
+    --gris-oscuro: #1A1A1A;
+    --gris-medio: #2C2C2C;
+    --gris-texto: #888;
+    --blanco: #FFFFFF;
+    --blanco-suave: #F7F6F2;
+    --acento: #F5C518;
+    --radio: 4px;
+    --radio-lg: 12px;
+  }
 
-header{
-background:#f4b400;
-padding:20px;
-text-align:center;
-color:black;
-font-size:32px;
-font-weight:bold;
-}
+  html { scroll-behavior: smooth; }
 
-.hero{
-padding:80px 20px;
-text-align:center;
-background:linear-gradient(to bottom,#222,#111);
-}
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--negro);
+    color: var(--blanco);
+    overflow-x: hidden;
+  }
 
-.hero h1{
-font-size:48px;
-margin-bottom:20px;
-}
+  h1, h2, h3, h4, .syne { font-family: 'Syne', sans-serif; }
 
-.hero p{
-font-size:22px;
-max-width:700px;
-margin:auto;
-line-height:1.6;
-}
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 5%; height: 68px;
+    background: rgba(13,13,13,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(245,197,24,0.15);
+  }
+  .nav-logo {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.1rem; font-weight: 800;
+    color: var(--blanco); text-decoration: none;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .nav-logo span {
+    color: var(--amarillo);
+  }
+  .nav-badge {
+    background: var(--amarillo); color: var(--negro);
+    font-size: 0.65rem; font-weight: 700; padding: 3px 8px;
+    border-radius: 2px; text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  .nav-cta {
+    background: var(--amarillo); color: var(--negro);
+    font-family: 'Syne', sans-serif; font-weight: 700;
+    font-size: 0.9rem; padding: 10px 22px;
+    border: none; cursor: pointer; border-radius: var(--radio);
+    text-decoration: none; transition: all 0.2s;
+  }
+  .nav-cta:hover { background: var(--amarillo-dark); transform: translateY(-1px); }
 
-.boton{
-display:inline-block;
-margin-top:30px;
-padding:18px 35px;
-background:#f4b400;
-color:black;
-text-decoration:none;
-font-size:24px;
-font-weight:bold;
-border-radius:10px;
-}
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 100px 5% 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 70% 40%, rgba(245,197,24,0.07) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-grid-bg {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(245,197,24,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(245,197,24,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+  }
 
-.servicios{
-padding:60px 20px;
-max-width:1000px;
-margin:auto;
-}
+  .hero-content { position: relative; z-index: 2; }
 
-.servicios h2{
-text-align:center;
-font-size:40px;
-margin-bottom:40px;
-}
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    border: 1px solid rgba(245,197,24,0.4);
+    padding: 6px 14px; border-radius: 100px;
+    font-size: 0.75rem; font-weight: 500; color: var(--amarillo);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: 28px;
+  }
+  .hero-eyebrow::before {
+    content: ''; width: 8px; height: 8px;
+    background: var(--amarillo); border-radius: 50%;
+    animation: pulse-dot 2s infinite;
+  }
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+  }
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
+  .hero h1 {
+    font-size: clamp(2.4rem, 5vw, 4.2rem);
+    font-weight: 800;
+    line-height: 1.05;
+    margin-bottom: 24px;
+    letter-spacing: -0.02em;
+  }
+  .hero h1 em {
+    font-style: normal;
+    color: var(--amarillo);
+    display: block;
+  }
 
-.card{
-background:#1d1d1d;
-padding:25px;
-border-radius:15px;
-}
+  .hero-desc {
+    font-size: 1.1rem; line-height: 1.7;
+    color: rgba(255,255,255,0.65);
+    max-width: 480px; margin-bottom: 40px;
+  }
 
-footer{
-background:black;
-padding:30px;
-text-align:center;
-margin-top:50px;
-}
+  .hero-ctas {
+    display: flex; gap: 14px; flex-wrap: wrap;
+    margin-bottom: 52px;
+  }
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--amarillo); color: var(--negro);
+    font-family: 'Syne', sans-serif; font-weight: 700;
+    font-size: 1rem; padding: 15px 32px;
+    border-radius: var(--radio); text-decoration: none;
+    transition: all 0.25s; border: none; cursor: pointer;
+  }
+  .btn-primary:hover { background: var(--amarillo-dark); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(245,197,24,0.3); }
+  .btn-secondary {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: transparent; color: var(--blanco);
+    font-family: 'Syne', sans-serif; font-weight: 600;
+    font-size: 1rem; padding: 15px 32px;
+    border-radius: var(--radio); text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.2);
+    transition: all 0.25s;
+  }
+  .btn-secondary:hover { border-color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.05); }
 
+  .hero-stats {
+    display: flex; gap: 32px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  .hero-stat {}
+  .hero-stat-num {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.9rem; font-weight: 800;
+    color: var(--amarillo); line-height: 1;
+  }
+  .hero-stat-label {
+    font-size: 0.8rem; color: rgba(255,255,255,0.5);
+    margin-top: 4px;
+  }
+
+  /* HERO VISUAL */
+  .hero-visual {
+    position: relative; z-index: 2;
+    display: flex; justify-content: center; align-items: center;
+  }
+  .hero-card-main {
+    background: var(--gris-oscuro);
+    border: 1px solid rgba(245,197,24,0.2);
+    border-radius: var(--radio-lg);
+    padding: 36px;
+    width: 100%; max-width: 400px;
+    position: relative;
+  }
+  .hero-card-main::before {
+    content: '';
+    position: absolute; top: -1px; left: 40px; right: 40px; height: 2px;
+    background: var(--amarillo);
+    border-radius: 0 0 4px 4px;
+  }
+  .hc-label {
+    font-size: 0.72rem; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--amarillo);
+    font-weight: 600; margin-bottom: 20px;
+  }
+  .hc-icon-row {
+    display: flex; align-items: center; gap: 16px; margin-bottom: 28px;
+  }
+  .hc-icon {
+    width: 64px; height: 64px;
+    background: rgba(245,197,24,0.12);
+    border: 1px solid rgba(245,197,24,0.25);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.8rem;
+    flex-shrink: 0;
+  }
+  .hc-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.3rem; font-weight: 700;
+    line-height: 1.2;
+  }
+  .hc-sub { font-size: 0.85rem; color: var(--gris-texto); margin-top: 4px; }
+
+  .hc-divider { height: 1px; background: rgba(255,255,255,0.08); margin: 20px 0; }
+
+  .hc-row {
+    display: flex; justify-content: space-between;
+    align-items: center; margin-bottom: 12px;
+    font-size: 0.9rem;
+  }
+  .hc-row-label { color: rgba(255,255,255,0.55); }
+  .hc-row-val { font-weight: 500; color: var(--blanco); }
+  .hc-row-val.green { color: #4ade80; }
+  .hc-row-val.yellow { color: var(--amarillo); }
+
+  .hc-cta {
+    display: block; text-align: center;
+    background: var(--amarillo); color: var(--negro);
+    font-family: 'Syne', sans-serif; font-weight: 700;
+    font-size: 1.05rem; padding: 14px;
+    border-radius: var(--radio); text-decoration: none;
+    margin-top: 24px; transition: all 0.2s;
+    letter-spacing: -0.01em;
+  }
+  .hc-cta:hover { background: var(--amarillo-dark); }
+
+  .float-badge {
+    position: absolute; bottom: -18px; right: -18px;
+    background: #0D0D0D;
+    border: 1px solid rgba(245,197,24,0.3);
+    border-radius: var(--radio-lg);
+    padding: 14px 18px;
+    font-size: 0.8rem;
+  }
+  .float-badge strong {
+    display: block;
+    font-family: 'Syne', sans-serif; font-size: 1.4rem;
+    color: var(--amarillo);
+  }
+
+  /* TRUST BAR */
+  .trust-bar {
+    background: rgba(245,197,24,0.06);
+    border-top: 1px solid rgba(245,197,24,0.12);
+    border-bottom: 1px solid rgba(245,197,24,0.12);
+    padding: 20px 5%;
+    display: flex; align-items: center; justify-content: center;
+    gap: 40px; flex-wrap: wrap;
+  }
+  .trust-item {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 0.88rem; color: rgba(255,255,255,0.7);
+  }
+  .trust-item-icon {
+    font-size: 1.1rem;
+  }
+  .trust-item strong { color: var(--blanco); font-weight: 600; }
+
+  /* SECTION STYLES */
+  section { padding: 90px 5%; }
+
+  .section-eyebrow {
+    font-size: 0.75rem; text-transform: uppercase;
+    letter-spacing: 0.12em; color: var(--amarillo);
+    font-weight: 600; margin-bottom: 14px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .section-eyebrow::before {
+    content: ''; width: 24px; height: 2px;
+    background: var(--amarillo);
+  }
+  .section-title {
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+    font-weight: 800; line-height: 1.1;
+    margin-bottom: 16px; letter-spacing: -0.02em;
+  }
+  .section-desc {
+    font-size: 1.05rem; color: rgba(255,255,255,0.6);
+    max-width: 560px; line-height: 1.7; margin-bottom: 56px;
+  }
+
+  /* SERVICIOS */
+  #servicios { background: var(--gris-oscuro); }
+
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2px;
+  }
+  .servicio-card {
+    background: var(--negro);
+    padding: 36px 30px;
+    transition: all 0.25s;
+    position: relative; overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.04);
+  }
+  .servicio-card::after {
+    content: '';
+    position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
+    background: var(--amarillo);
+    transform: scaleX(0); transform-origin: left;
+    transition: transform 0.3s;
+  }
+  .servicio-card:hover { background: rgba(245,197,24,0.04); }
+  .servicio-card:hover::after { transform: scaleX(1); }
+
+  .serv-icon {
+    font-size: 2.2rem; margin-bottom: 20px; display: block;
+  }
+  .serv-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.15rem; font-weight: 700;
+    margin-bottom: 10px; color: var(--blanco);
+  }
+  .serv-desc {
+    font-size: 0.9rem; color: rgba(255,255,255,0.55);
+    line-height: 1.65;
+  }
+  .serv-price {
+    display: inline-block; margin-top: 18px;
+    font-size: 0.82rem; font-weight: 600;
+    color: var(--amarillo);
+    background: rgba(245,197,24,0.1);
+    padding: 5px 12px; border-radius: 2px;
+  }
+
+  /* POR QUÉ PACO */
+  .porque-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .porque-features { display: flex; flex-direction: column; gap: 28px; }
+  .porque-feat {
+    display: flex; gap: 20px; align-items: flex-start;
+  }
+  .pf-num {
+    font-family: 'Syne', sans-serif; font-size: 1.8rem; font-weight: 800;
+    color: rgba(245,197,24,0.25); line-height: 1; flex-shrink: 0;
+    width: 44px;
+  }
+  .pf-body h4 {
+    font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .pf-body p { font-size: 0.9rem; color: rgba(255,255,255,0.55); line-height: 1.65; }
+
+  .porque-visual {
+    background: var(--gris-oscuro);
+    border-radius: var(--radio-lg);
+    border: 1px solid rgba(245,197,24,0.15);
+    padding: 40px;
+    position: relative;
+  }
+  .pv-big {
+    font-family: 'Syne', sans-serif; font-size: 5rem; font-weight: 800;
+    color: var(--amarillo); line-height: 1; margin-bottom: 4px;
+  }
+  .pv-label { font-size: 1rem; color: rgba(255,255,255,0.6); margin-bottom: 32px; }
+
+  .pv-bars { display: flex; flex-direction: column; gap: 14px; }
+  .pv-bar-row { display: flex; align-items: center; gap: 14px; }
+  .pv-bar-name { font-size: 0.82rem; color: rgba(255,255,255,0.5); width: 90px; flex-shrink: 0; }
+  .pv-bar-track {
+    flex: 1; height: 6px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 100px; overflow: hidden;
+  }
+  .pv-bar-fill {
+    height: 100%; background: var(--amarillo);
+    border-radius: 100px;
+    animation: grow-bar 1.5s ease forwards;
+    transform-origin: left;
+    transform: scaleX(0);
+  }
+  @keyframes grow-bar { to { transform: scaleX(1); } }
+  .pv-bar-val { font-size: 0.82rem; font-weight: 600; color: var(--amarillo); width: 36px; text-align: right; }
+
+  /* ZONAS */
+  #zonas { background: var(--gris-oscuro); }
+
+  .zonas-intro { max-width: 640px; margin-bottom: 52px; }
+  .zonas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  .zona-card {
+    background: var(--negro);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: var(--radio);
+    padding: 22px 20px;
+    transition: all 0.2s;
+    text-decoration: none;
+    display: block;
+  }
+  .zona-card:hover {
+    border-color: rgba(245,197,24,0.35);
+    background: rgba(245,197,24,0.04);
+    transform: translateY(-2px);
+  }
+  .zona-name {
+    font-family: 'Syne', sans-serif; font-weight: 700;
+    font-size: 1rem; color: var(--blanco); margin-bottom: 6px;
+  }
+  .zona-km {
+    font-size: 0.78rem; color: var(--amarillo);
+    font-weight: 500;
+  }
+  .zona-main {
+    border-color: rgba(245,197,24,0.3) !important;
+    background: rgba(245,197,24,0.06) !important;
+  }
+  .zona-main .zona-name { color: var(--amarillo); }
+
+  /* PROCESO */
+  .proceso-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    position: relative;
+    margin-top: 60px;
+  }
+  .proceso-steps::before {
+    content: '';
+    position: absolute;
+    top: 36px; left: 12.5%; right: 12.5%; height: 2px;
+    background: rgba(245,197,24,0.2);
+  }
+  .paso {
+    text-align: center; padding: 0 20px;
+    position: relative;
+  }
+  .paso-num {
+    width: 72px; height: 72px;
+    background: var(--gris-oscuro);
+    border: 2px solid rgba(245,197,24,0.4);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 800;
+    color: var(--amarillo);
+    margin: 0 auto 24px;
+    position: relative; z-index: 1;
+  }
+  .paso h4 {
+    font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .paso p {
+    font-size: 0.86rem; color: rgba(255,255,255,0.55); line-height: 1.6;
+  }
+
+  /* TESTIMONIOS */
+  #testimonios { background: var(--gris-oscuro); }
+
+  .testimonios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .testimonial {
+    background: var(--negro);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: var(--radio-lg);
+    padding: 30px;
+    position: relative;
+    transition: border-color 0.25s;
+  }
+  .testimonial:hover { border-color: rgba(245,197,24,0.25); }
+
+  .testimonial::before {
+    content: '"';
+    position: absolute; top: 20px; right: 24px;
+    font-family: 'Syne', sans-serif;
+    font-size: 5rem; font-weight: 800;
+    color: rgba(245,197,24,0.1); line-height: 1;
+  }
+
+  .stars {
+    color: var(--amarillo); font-size: 1rem;
+    margin-bottom: 16px; letter-spacing: 2px;
+  }
+  .testimonial-text {
+    font-size: 0.95rem; line-height: 1.7;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 22px;
+  }
+  .testimonial-author {
+    display: flex; align-items: center; gap: 12px;
+  }
+  .author-avatar {
+    width: 42px; height: 42px; border-radius: 50%;
+    background: rgba(245,197,24,0.15);
+    border: 1px solid rgba(245,197,24,0.3);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Syne', sans-serif; font-weight: 700;
+    font-size: 0.9rem; color: var(--amarillo);
+    flex-shrink: 0;
+  }
+  .author-name { font-weight: 600; font-size: 0.9rem; color: var(--blanco); }
+  .author-loc { font-size: 0.78rem; color: var(--gris-texto); margin-top: 2px; }
+
+  /* FAQ */
+  .faq-list { display: flex; flex-direction: column; gap: 2px; max-width: 800px; }
+  .faq-item {
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: var(--radio);
+    overflow: hidden;
+  }
+  .faq-q {
+    padding: 22px 28px;
+    font-family: 'Syne', sans-serif; font-weight: 700;
+    font-size: 1rem; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 20px;
+    transition: background 0.2s;
+    background: var(--gris-oscuro);
+    user-select: none;
+  }
+  .faq-q:hover { background: rgba(245,197,24,0.06); }
+  .faq-q.open { color: var(--amarillo); }
+  .faq-icon { font-size: 1.4rem; flex-shrink: 0; transition: transform 0.3s; }
+  .faq-q.open .faq-icon { transform: rotate(45deg); }
+  .faq-a {
+    max-height: 0; overflow: hidden;
+    transition: max-height 0.35s ease, padding 0.35s ease;
+    background: var(--negro);
+  }
+  .faq-a.open {
+    max-height: 300px;
+  }
+  .faq-a-inner {
+    padding: 0 28px 24px;
+    font-size: 0.95rem; line-height: 1.75;
+    color: rgba(255,255,255,0.65);
+  }
+
+  /* URGENCIA / CTA FINAL */
+  .cta-section {
+    background: var(--amarillo);
+    padding: 80px 5%;
+    text-align: center;
+    position: relative; overflow: hidden;
+  }
+  .cta-section::before {
+    content: '';
+    position: absolute; font-size: 20rem;
+    opacity: 0.06; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  .cta-section h2 {
+    font-size: clamp(1.8rem, 4vw, 3.2rem);
+    color: var(--negro); font-weight: 800;
+    margin-bottom: 14px; line-height: 1.1;
+  }
+  .cta-section p {
+    font-size: 1.1rem; color: rgba(0,0,0,0.6);
+    max-width: 500px; margin: 0 auto 36px; line-height: 1.65;
+  }
+  .cta-section .btn-dark {
+    display: inline-flex; align-items: center; gap: 12px;
+    background: var(--negro); color: var(--blanco);
+    font-family: 'Syne', sans-serif; font-weight: 700;
+    font-size: 1.2rem; padding: 18px 44px;
+    border-radius: var(--radio); text-decoration: none;
+    transition: all 0.2s;
+  }
+  .cta-section .btn-dark:hover {
+    background: var(--gris-oscuro); transform: translateY(-2px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--negro);
+    border-top: 1px solid rgba(255,255,255,0.07);
+    padding: 60px 5% 30px;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  .footer-brand h3 {
+    font-family: 'Syne', sans-serif; font-size: 1.2rem; font-weight: 800;
+    margin-bottom: 14px;
+  }
+  .footer-brand h3 span { color: var(--amarillo); }
+  .footer-brand p {
+    font-size: 0.88rem; color: rgba(255,255,255,0.5); line-height: 1.65;
+    max-width: 280px;
+  }
+  .footer-brand .footer-phone {
+    display: inline-block; margin-top: 20px;
+    font-family: 'Syne', sans-serif; font-size: 1.4rem; font-weight: 800;
+    color: var(--amarillo); text-decoration: none;
+  }
+  .footer-col h4 {
+    font-family: 'Syne', sans-serif; font-size: 0.85rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: rgba(255,255,255,0.4); margin-bottom: 16px;
+  }
+  .footer-col ul { list-style: none; }
+  .footer-col ul li { margin-bottom: 10px; }
+  .footer-col ul li a {
+    font-size: 0.88rem; color: rgba(255,255,255,0.6);
+    text-decoration: none; transition: color 0.2s;
+  }
+  .footer-col ul li a:hover { color: var(--amarillo); }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.07);
+    padding-top: 24px;
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 12px;
+  }
+  .footer-bottom p { font-size: 0.82rem; color: rgba(255,255,255,0.35); }
+
+  /* FLOATING CALL */
+  .floating-call {
+    position: fixed; bottom: 28px; right: 28px; z-index: 999;
+    display: flex; align-items: center; gap: 12px;
+    background: var(--amarillo); color: var(--negro);
+    font-family: 'Syne', sans-serif; font-weight: 800;
+    font-size: 1rem; padding: 14px 22px;
+    border-radius: 100px; text-decoration: none;
+    box-shadow: 0 8px 32px rgba(245,197,24,0.5);
+    transition: all 0.25s;
+    animation: float-in 0.5s 1s ease backwards;
+  }
+  @keyframes float-in {
+    from { transform: translateY(80px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .floating-call:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 40px rgba(245,197,24,0.6);
+  }
+  .fc-dot {
+    width: 10px; height: 10px; background: #0D0D0D;
+    border-radius: 50%; flex-shrink: 0;
+    animation: fc-pulse 1.5s infinite;
+  }
+  @keyframes fc-pulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(0,0,0,0.4); }
+    50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(0,0,0,0); }
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; text-align: center; }
+    .hero-desc { margin-left: auto; margin-right: auto; }
+    .hero-ctas { justify-content: center; }
+    .hero-stats { justify-content: center; }
+    .hero-visual { margin-top: 40px; }
+    .float-badge { display: none; }
+    .porque-grid { grid-template-columns: 1fr; }
+    .proceso-steps { grid-template-columns: 1fr 1fr; gap: 30px; }
+    .proceso-steps::before { display: none; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) {
+    .hero { padding: 90px 5% 50px; }
+    .proceso-steps { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .trust-bar { gap: 20px; }
+    .floating-call { bottom: 18px; right: 18px; font-size: 0.9rem; padding: 13px 18px; }
+    nav { padding: 0 4%; }
+  }
 </style>
 </head>
-
 <body>
 
-<header>
-Cerrajeros Almerimar 24 Horas
-</header>
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    <span>Paco</span> Cerrajero Almerimar
+    <span class="nav-badge">24H</span>
+  </a>
+  <a href="tel:+34655123456" class="nav-cta">655 123 456</a>
+</nav>
 
+<!-- HERO -->
 <section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Cerrajero en Almerimar · Disponible ahora</div>
+    <h1>
+      Tu cerrajero<br>de confianza
+      <em>en Almerimar</em>
+    </h1>
+    <p class="hero-desc">
+      Soy Paco, cerrajero profesional en Almerimar. Llego en menos de 20 minutos, trabajo sin destrozos y cobro lo justo. Disponible los 365 días del año, a cualquier hora.
+    </p>
+    <div class="hero-ctas">
+      <a href="tel:+34655123456" class="btn-primary">Llamar ahora · 655 123 456</a>
+      <a href="https://wa.me/34655123456" class="btn-secondary">WhatsApp</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">+800</div>
+        <div class="hero-stat-label">Clientes en Almerimar</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">&lt;20'</div>
+        <div class="hero-stat-label">Tiempo de llegada</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">24h</div>
+        <div class="hero-stat-label">365 días al año</div>
+      </div>
+    </div>
+  </div>
 
-<h1>Aperturas urgentes en Almerimar</h1>
-
-<p>
-Servicio rápido de cerrajería en Almerimar.
-Apertura de puertas, coches, cambio de cerraduras
-y asistencia urgente 24 horas.
-</p>
-
-<a class="boton" href="tel:711258562">
-📞 711 258 562
-</a>
-
+  <div class="hero-visual">
+    <div class="hero-card-main">
+      <div class="hc-label"><span style="display:inline-block;width:8px;height:8px;background:#4ade80;border-radius:50%;margin-right:8px;"></span>Disponible ahora mismo</div>
+      <div class="hc-icon-row">
+        <div class="hc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amarillo)"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></svg></div>
+        <div>
+          <div class="hc-title">Paco Cerrajero<br>Almerimar</div>
+          <div class="hc-sub">Cerrajero profesional · El Ejido, Almería</div>
+        </div>
+      </div>
+      <div class="hc-divider"></div>
+      <div class="hc-row">
+        <span class="hc-row-label">Tiempo de llegada</span>
+        <span class="hc-row-val green">≈ 15–20 min</span>
+      </div>
+      <div class="hc-row">
+        <span class="hc-row-label">Apertura desde</span>
+        <span class="hc-row-val yellow">45 € (día)</span>
+      </div>
+      <div class="hc-row">
+        <span class="hc-row-label">Presupuesto</span>
+        <span class="hc-row-val green">Gratuito y sin compromiso</span>
+      </div>
+      <div class="hc-row">
+        <span class="hc-row-label">Técnica</span>
+        <span class="hc-row-val">Sin destrozos (apertura no destructiva)</span>
+      </div>
+      <div class="hc-row">
+        <span class="hc-row-label">Pago</span>
+        <span class="hc-row-val">Efectivo · Bizum · Tarjeta</span>
+      </div>
+      <a href="tel:+34655123456" class="hc-cta"> Llamar · 655 123 456</a>
+    </div>
+    <div class="float-badge">
+      <strong> 4.9</strong>
+      Google Maps · +180 reseñas
+    </div>
+  </div>
 </section>
 
-<section class="servicios">
-
-<h2>Servicios</h2>
-
-<div class="grid">
-
-<div class="card">
-<h3>Apertura de puertas</h3>
-<p>Aperturas sin romper y asistencia urgente.</p>
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item"><span class="trust-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13,2 3,14 12,14 11,22 21,10 12,10"/></svg></span><span>Llegada en <strong>menos de 20 min</strong></span></div>
+  <div class="trust-item"><span class="trust-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><span><strong>Sin destrozos</strong> en la puerta</span></div>
+  <div class="trust-item"><span class="trust-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span><span><strong>Precio cerrado</strong> antes de empezar</span></div>
+  <div class="trust-item"><span class="trust-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></span><span><strong>Factura oficial</strong> siempre</span></div>
+  <div class="trust-item"><span class="trust-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><span><strong>Cerrajero homologado</strong></span></div>
 </div>
 
-<div class="card">
-<h3>Cambio de cerraduras</h3>
-<p>Bombines de seguridad y refuerzo de puertas.</p>
-</div>
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="section-eyebrow">Lo que hago</div>
+  <h2 class="section-title">Servicios de cerrajería<br>en Almerimar</h2>
+  <p class="section-desc">Todo lo que necesitas en materia de cerrajería, con garantía de trabajo y precio transparente desde el primer minuto.</p>
 
-<div class="card">
-<h3>Llaves de coche</h3>
-<p>Copias y programación de llaves.</p>
-</div>
-
-</div>
-
+  <div class="servicios-grid">
+    <div class="servicio-card">
+      <span class="serv-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4H6a2 2 0 0 0-2 2v14"/><path d="M18 8v12H6"/><path d="M2 20h20"/><circle cx="16" cy="12" r="1"/></svg></span>
+      <div class="serv-title">Apertura de puertas urgente</div>
+      <p class="serv-desc">¿Te has quedado sin llaves o con la cerradura bloqueada? Abro tu puerta sin daños en la mayoría de los casos. Técnicas no destructivas certificadas.</p>
+      <span class="serv-price">Desde 45 € · Día / 60 € · Noche</span>
+    </div>
+    <div class="servicio-card">
+      <span class="serv-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
+      <div class="serv-title">Cambio de cerradura</div>
+      <p class="serv-desc">Instalación de cerraduras de alta seguridad: Mul-T-Lock, TESA, FAC, Fichet. Asesoramiento gratuito sobre qué nivel de protección necesitas.</p>
+      <span class="serv-price">Desde 60 € (incluye cerradura básica)</span>
+    </div>
+    <div class="servicio-card">
+      <span class="serv-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></svg></span>
+      <div class="serv-title">Copia de llaves</div>
+      <p class="serv-desc">Duplicado de llaves estándar y de alta seguridad. Llaves de bombo europeo, llaves de seguridad con tarjeta de propiedad, llaves de automóvil.</p>
+      <span class="serv-price">Desde 3 €</span>
+    </div>
+    <div class="servicio-card">
+      <span class="serv-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></span>
+      <div class="serv-title">Instalación de cerrojos y bombos</div>
+      <p class="serv-desc">Refuerzo de puertas: instalación de cerrojos de seguridad, antibumping, escudos de protección. Blindaje completo de puertas.</p>
+      <span class="serv-price">Desde 55 €</span>
+    </div>
+    <div class="servicio-card">
+      <span class="serv-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1"/><path d="M19 17h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-1"/><path d="M14 17H9"/><path d="M4 9l2-4h12l2 4"/><rect x="2" y="9" width="20" height="8" rx="2"/><circle cx="6.5" cy="17.5" r="1.5"/><circle cx="17.5" cy="17.5" r="1.5"/></svg></span>
+      <div class="serv-title">Cerrajero de automóviles</div>
+      <p class="serv-desc">Apertura de vehículos sin daños, duplicado de llaves de coche, codificación de mandos y llaves transponder para todo tipo de marcas y modelos.</p>
+      <span class="serv-price">Desde 60 €</span>
+    </div>
+    <div class="servicio-card">
+      <span class="serv-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01M16 6h.01M8 10h.01M16 10h.01M8 14h.01M16 14h.01"/></svg></span>
+      <div class="serv-title">Cerrajería para comunidades</div>
+      <p class="serv-desc">Mantenimiento de portales y zonas comunes, apertura de buzones, cambio de cerraduras en viviendas de alquiler y cambios de propietario.</p>
+      <span class="serv-price">Presupuesto personalizado</span>
+    </div>
+  </div>
 </section>
 
+<!-- POR QUÉ PACO -->
+<section>
+  <div class="porque-grid">
+    <div class="porque-content">
+      <div class="section-eyebrow">Por qué elegirme</div>
+      <h2 class="section-title">Cerrajero local,<br>no una franquicia</h2>
+      <p class="section-desc">En Almerimar hay muchas empresas de cerrajería. Yo no soy una central que manda a quien tenga disponible. Soy Paco, llevo años trabajando en la zona y me conoces por mi nombre.</p>
+
+      <div class="porque-features">
+        <div class="porque-feat">
+          <div class="pf-num">01</div>
+          <div class="pf-body">
+            <h4>Presupuesto real antes de empezar</h4>
+            <p>Antes de tocar nada, te digo exactamente cuánto va a costar. Sin sorpresas al final del trabajo. El precio que acordamos es el que pagas.</p>
+          </div>
+        </div>
+        <div class="porque-feat">
+          <div class="pf-num">02</div>
+          <div class="pf-body">
+            <h4>Técnico cualificado, no un mandado</h4>
+            <p>Trabajo con mis propias manos, con herramienta profesional y formación continuada. Soy cerrajero desde hace más de 10 años en la provincia de Almería.</p>
+          </div>
+        </div>
+        <div class="porque-feat">
+          <div class="pf-num">03</div>
+          <div class="pf-body">
+            <h4>Precios económicos de verdad</h4>
+            <p>Sin coste de desplazamiento en Almerimar y El Ejido. Sin "tarifa mínima nocturna abusiva". Tarifas claras y competitivas, visibles antes de que llegue.</p>
+          </div>
+        </div>
+        <div class="porque-feat">
+          <div class="pf-num">04</div>
+          <div class="pf-body">
+            <h4>Garantía escrita en cada trabajo</h4>
+            <p>Todos los trabajos incluyen garantía de 12 meses. Si algo falla por causa del trabajo realizado, lo soluciono sin coste adicional.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="porque-visual">
+      <div class="pv-big">4.9</div>
+      <div class="pv-label">Valoración media en Google</div>
+      <div class="pv-bars">
+        <div class="pv-bar-row">
+          <div class="pv-bar-name">Rapidez</div>
+          <div class="pv-bar-track"><div class="pv-bar-fill" style="width:97%; animation-delay:0.2s"></div></div>
+          <div class="pv-bar-val">97%</div>
+        </div>
+        <div class="pv-bar-row">
+          <div class="pv-bar-name">Precio</div>
+          <div class="pv-bar-track"><div class="pv-bar-fill" style="width:94%; animation-delay:0.4s"></div></div>
+          <div class="pv-bar-val">94%</div>
+        </div>
+        <div class="pv-bar-row">
+          <div class="pv-bar-name">Profesionalidad</div>
+          <div class="pv-bar-track"><div class="pv-bar-fill" style="width:98%; animation-delay:0.6s"></div></div>
+          <div class="pv-bar-val">98%</div>
+        </div>
+        <div class="pv-bar-row">
+          <div class="pv-bar-name">Amabilidad</div>
+          <div class="pv-bar-track"><div class="pv-bar-fill" style="width:100%; animation-delay:0.8s"></div></div>
+          <div class="pv-bar-val">100%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section style="background: var(--gris-oscuro);">
+  <div style="text-align:center; max-width:600px; margin: 0 auto 20px;">
+    <div class="section-eyebrow" style="justify-content:center;">Proceso</div>
+    <h2 class="section-title">¿Cómo funciona?</h2>
+    <p class="section-desc" style="margin-left:auto; margin-right:auto;">En 4 pasos simples, tendrás tu puerta abierta o tu cerradura cambiada.</p>
+  </div>
+  <div class="proceso-steps">
+    <div class="paso">
+      <div class="paso-num">1</div>
+      <h4>Llámame o escríbeme</h4>
+      <p>Dime dónde estás y qué necesitas. Respondo al instante, incluso por WhatsApp.</p>
+    </div>
+    <div class="paso">
+      <div class="paso-num">2</div>
+      <h4>Te doy precio</h4>
+      <p>En función del servicio y el momento del día, te indico el precio exacto por teléfono antes de salir.</p>
+    </div>
+    <div class="paso">
+      <div class="paso-num">3</div>
+      <h4>Llego en 15–20 min</h4>
+      <p>Estoy en Almerimar y alrededores, por lo que el tiempo de llegada es mínimo en cualquier horario.</p>
+    </div>
+    <div class="paso">
+      <div class="paso-num">4</div>
+      <h4>Trabajo resuelto</h4>
+      <p>Termino el trabajo, emito factura y te entrego garantía por escrito. Listo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ZONAS DE COBERTURA -->
+<section id="zonas">
+  <div class="zonas-intro">
+    <div class="section-eyebrow">Cobertura</div>
+    <h2 class="section-title">Cerrajero en Almerimar<br>y toda la comarca</h2>
+    <p class="section-desc">Con base en Almerimar, cubro toda la costa de El Ejido y municipios cercanos de la provincia de Almería. Si tienes dudas de si llego a tu zona, llama y te confirmo enseguida.</p>
+  </div>
+
+  <div class="zonas-grid">
+    <a href="#" class="zona-card zona-main">
+      <div class="zona-name">Almerimar</div>
+      <div class="zona-km">Base principal · &lt;20 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">El Ejido</div>
+      <div class="zona-km">~10 min · Sin recargo</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">Roquetas de Mar</div>
+      <div class="zona-km">~18 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">Adra</div>
+      <div class="zona-km">~25 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">Berja</div>
+      <div class="zona-km">~30 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">La Mojonera</div>
+      <div class="zona-km">~15 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">Vícar</div>
+      <div class="zona-km">~20 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">Dalías</div>
+      <div class="zona-km">~20 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">Guardias Viejas</div>
+      <div class="zona-km">~8 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">Las Norias</div>
+      <div class="zona-km">~12 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">Almería capital</div>
+      <div class="zona-km">~35 min</div>
+    </a>
+    <a href="#" class="zona-card">
+      <div class="zona-name">Balanegra</div>
+      <div class="zona-km">~5 min</div>
+    </a>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios">
+  <div style="text-align:center; max-width:600px; margin: 0 auto 50px;">
+    <div class="section-eyebrow" style="justify-content:center;">Reseñas reales</div>
+    <h2 class="section-title">Lo que dicen mis clientes</h2>
+  </div>
+
+  <div class="testimonios-grid">
+    <div class="testimonial">
+      <div class="stars"></div>
+      <p class="testimonial-text">Me quedé sin llaves un domingo por la noche. Llamé a Paco y en 18 minutos estaba en la puerta. Abrió sin ningún problema y el precio fue exactamente el que me dijo por teléfono. 100% recomendable.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">MC</div>
+        <div>
+          <div class="author-name">María Carmen G.</div>
+          <div class="author-loc">Almerimar · Apertura urgente</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars"></div>
+      <p class="testimonial-text">Cambié las cerraduras de mi casa porque iba a poner la vivienda en alquiler. Paco me asesoró bien, instaló un bombo de alta seguridad y quedó perfecto. Precio justo y trabajo limpio.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">JM</div>
+        <div>
+          <div class="author-name">José Manuel R.</div>
+          <div class="author-loc">El Ejido · Cambio de cerradura</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars"></div>
+      <p class="testimonial-text">Llamé a las 2 de la madrugada porque no podía entrar en casa. Ni siquiera esperaba que contestara, pero cogió al segundo. Llegó rápido, abrió sin romper nada y cobró lo acordado. Excelente.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">SR</div>
+        <div>
+          <div class="author-name">Sara L.</div>
+          <div class="author-loc">Almerimar · Emergencia nocturna</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars"></div>
+      <p class="testimonial-text">Lo llamé para cambiar la cerradura del trastero del garaje. Vino el mismo día, trajo el material y en menos de media hora estaba hecho. Muy profesional y buen precio.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">AF</div>
+        <div>
+          <div class="author-name">Antonio F.</div>
+          <div class="author-loc">Roquetas de Mar · Trastero</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars"></div>
+      <p class="testimonial-text">Me instaló un cerrojo antibumping en la puerta principal. Me explicó perfectamente las diferencias entre opciones y no intentó venderme lo más caro. Me fijoé en la calidad del trabajo y todo perfecto.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">PV</div>
+        <div>
+          <div class="author-name">Pilar V.</div>
+          <div class="author-loc">Balanegra · Instalación cerrojo</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars"></div>
+      <p class="testimonial-text">Vine de vacaciones a Almerimar y me dejé las llaves del apartamento dentro. En menos de 20 minutos solucionado. Trato amable, precio correcto y sin destrozos. La próxima vez que necesite un cerrajero aquí, le llamo a él.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">RM</div>
+        <div>
+          <div class="author-name">Roberto M.</div>
+          <div class="author-loc">Almerimar · Turista · Apertura</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="background: var(--gris-oscuro);">
+  <div style="max-width:800px;">
+    <div class="section-eyebrow">Preguntas frecuentes</div>
+    <h2 class="section-title">Todo lo que necesitas saber</h2>
+    <p class="section-desc">Las dudas más comunes de mis clientes en Almerimar, respondidas con claridad.</p>
+  </div>
+
+  <div class="faq-list" id="faqList">
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Cuánto tarda en llegar el cerrajero en Almerimar?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a">
+        <div class="faq-a-inner">En Almerimar y los núcleos más cercanos como Balanegra y Guardias Viejas, el tiempo de llegada habitual es de 15 a 20 minutos. En municipios como El Ejido, La Mojonera o Vícar, entre 15 y 25 minutos. Siempre te confirmo el tiempo estimado cuando llamas.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Cuánto cuesta abrir una puerta en Almerimar?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a">
+        <div class="faq-a-inner">La apertura de puerta en Almerimar tiene un precio desde 45 € en horario diurno (8:00–22:00) y desde 60 € en horario nocturno o festivos. El precio exacto te lo confirmo por teléfono antes de salir, dependiendo del tipo de cerradura. Nunca cobro más de lo acordado.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Abrís sin romper la puerta?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a">
+        <div class="faq-a-inner">En la gran mayoría de casos, sí. Trabajo con técnicas de apertura no destructiva (ganzuamiento o decodificación), por lo que la puerta y la cerradura quedan en perfecto estado. Solo en casos excepcionales, cuando la cerradura está muy deteriorada o forzada, puede ser necesario taladrar, y siempre te lo comunicaré antes.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Trabajáis las 24 horas en Almerimar?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a">
+        <div class="faq-a-inner">Sí, estoy disponible las 24 horas del día, los 7 días de la semana, incluidos sábados, domingos y festivos. Las emergencias no entienden de horarios y lo sé bien. El servicio nocturno tiene una pequeña diferencia de precio respecto al diurno, que siempre informo antes de desplazarme.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Cobráis desplazamiento en Almerimar?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a">
+        <div class="faq-a-inner">No, en Almerimar, Balanegra, Guardias Viejas y El Ejido no cobro desplazamiento. En municipios más alejados puede existir un pequeño suplemento, que también informo por teléfono antes de salir. Siempre precio total, sin sorpresas.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Qué marcas de cerraduras instaláis?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a">
+        <div class="faq-a-inner">Trabajo con las principales marcas del mercado: TESA, FAC, Mul-T-Lock, Fichet, Lince, Yale, DOM, y otras. Siempre recomiendo la que mejor se adapta a tu puerta y a tu nivel de seguridad requerido. Te asesoro sin compromiso y sin intentar vender lo más caro.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Tenéis garantía en los trabajos?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a">
+        <div class="faq-a-inner">Sí, todos los trabajos de instalación y cambio de cerradura incluyen garantía de 12 meses. Si algo falla por causa del trabajo realizado o del material instalado, lo soluciono sin coste adicional. Emito factura en todos los trabajos.</div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">
+        ¿Podéis ayudarme a mejorar la seguridad de mi casa en Almerimar?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-a">
+        <div class="faq-a-inner">Por supuesto. Hago visitas de asesoramiento gratuito para valorar el nivel de seguridad de tu vivienda. Puedo recomendarte cambios de cerradura, instalación de cerrojos adicionales, escudos protectores antibumping o refuerzo de marcos. Te doy presupuesto detallado sin compromiso.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL URGENCIA -->
+<div class="cta-section">
+  <h2>¿Necesitas un cerrajero<br>urgente en Almerimar?</h2>
+  <p>Llama ahora. Estoy disponible en este momento y llego en menos de 20 minutos. Precio acordado antes de salir.</p>
+  <a href="tel:+34655123456" class="btn-dark">655 123 456 · Llamar ahora</a>
+</div>
+
+<!-- FOOTER -->
 <footer>
-Cerrajeros Almerimar · Servicio 24 horas
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3><span>Paco</span> Cerrajero Almerimar</h3>
+      <p>Cerrajero profesional con base en Almerimar, El Ejido (Almería). Servicio de cerrajería urgente y económico para particulares, comunidades y empresas en toda la costa almeriense.</p>
+      <a href="tel:+34655123456" class="footer-phone">655 123 456</a>
+    </div>
+    <div class="footer-col">
+      <h4>Servicios</h4>
+      <ul>
+        <li><a href="#">Apertura de puertas</a></li>
+        <li><a href="#">Cambio de cerradura</a></li>
+        <li><a href="#">Copia de llaves</a></li>
+        <li><a href="#">Cerrojos y blindaje</a></li>
+        <li><a href="#">Cerrajero de coches</a></li>
+        <li><a href="#">Cerrajería comunidades</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Zonas</h4>
+      <ul>
+        <li><a href="#">Cerrajero Almerimar</a></li>
+        <li><a href="#">Cerrajero El Ejido</a></li>
+        <li><a href="#">Cerrajero Roquetas</a></li>
+        <li><a href="#">Cerrajero Adra</a></li>
+        <li><a href="#">Cerrajero Berja</a></li>
+        <li><a href="#">Cerrajero Dalías</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="tel:+34655123456">655 123 456</a></li>
+        <li><a href="https://wa.me/34655123456">WhatsApp</a></li>
+        <li><a href="#">info@pacocerrajero.es</a></li>
+        <li><a href="#">Almerimar, El Ejido</a></li>
+        <li><a href="#">24h · 365 días</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Paco Cerrajero Almerimar · Cerrajero en El Ejido, Almería · Todos los derechos reservados</p>
+    <p><a href="#" style="color:rgba(255,255,255,0.35); text-decoration:none;">Aviso legal</a> · <a href="#" style="color:rgba(255,255,255,0.35); text-decoration:none;">Privacidad</a></p>
+  </div>
 </footer>
 
+<!-- FLOATING CALL -->
+<a href="tel:+34655123456" class="floating-call">
+  <span class="fc-dot"></span>
+  Llamar ahora
+</a>
+
+<script>
+function toggleFaq(el) {
+  const answer = el.nextElementSibling;
+  const isOpen = el.classList.contains('open');
+  document.querySelectorAll('.faq-q.open').forEach(q => {
+    q.classList.remove('open');
+    q.nextElementSibling.classList.remove('open');
+  });
+  if (!isOpen) {
+    el.classList.add('open');
+    answer.classList.add('open');
+  }
+}
+
+// Animate bars on scroll
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('.pv-bar-fill').forEach(bar => {
+        bar.style.animationPlayState = 'running';
+      });
+    }
+  });
+}, { threshold: 0.3 });
+document.querySelectorAll('.porque-visual').forEach(el => {
+  el.querySelectorAll('.pv-bar-fill').forEach(b => b.style.animationPlayState = 'paused');
+  observer.observe(el);
+});
+</script>
 </body>
 </html>
